@@ -1,0 +1,17 @@
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px !important;
+}
+.linha-horizontal-rodape {
+    margin: 50px 0px 1px 0px; 
+    border-top: 2px solid #ccc;
+}
+.footer-vitae {
+    padding-left: 37%;
+    padding-bottom: 8px;
+}
+/*Tirei a margem da linha(row) porque estava desalinhando o layout*/
+.row {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
