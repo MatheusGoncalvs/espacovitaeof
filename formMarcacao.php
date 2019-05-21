@@ -1,15 +1,15 @@
 <?php include_once 'layout/header.php'?>
+<div class="titulos">
+    <h2><strong>Marcação de consulta</strong></h2>
+</div>
 <div class="container">
-    <h2>Marcação de consulta</h2>
-    <form class="form-horizontal" action="/action_page.php">
+    <label></label>
+    <form class="form-horizontal" action="imprimirConsulta.php">
         <div class="form-group">
             <label class="control-label col-sm-2" for="nomeMarcacao">Nome:</label>
             <div class="col-sm-5">
                 <input type="text" class="form-control" id="nomeMarcacao" placeholder="Informe o nome do paciente"
-                    name="nomeMarcacao">
-            </div>
-            <div class="col-sm-3">
-                <button type="submit" class="form-control">Pesquisar</button>
+                    value="John Moses" name="nomeMarcacao" disabled>
             </div>
         </div>
         <div class="form-group">

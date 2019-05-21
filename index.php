@@ -1,10 +1,10 @@
 <?php include_once 'layout/header.php'?>
+<div class="titulos">
+    <h2><strong>Cadastre um novo usuário</strong></h2>
+</div>
 <div class="container">
-    <div class="form-group">
-        <h2>Formulário de cadastro</h2>
-    </div>
     <label></label>
-    <form class="form-horizontal" action="/action_page.php">
+    <form class="form-horizontal" action="mensagens/confirmacaoCadastroPaciente.php">
         <div class="form-group">
             <label class="control-label col-sm-2" for="name">Nome:</label>
             <div class="col-sm-6">
@@ -113,14 +113,20 @@
         </textarea>
             </div>
         </div>
-
         <div class="form-group">
-            <div class="col-sm-offset-2 col-sm-10">
-                <button type="submit" class="btn btn-default">Submit</button>
-            </div>
-            <label></label>
-            <div class="col-sm-offset-2 col-sm-10">
-                <input type="button" class="btn btn-default" name="imprimir" value="Imprimir" onclick="window.print();">
+            <div class="row">
+                <div class="col-sm-2">
+                </div>
+                <div class="col-sm-1">
+                    <button type="submit" class="btn btn-success">Cadastrar</button>
+                </div>
+                <div class="col-sm-2">
+                    <input type="reset" class="btn" value="Limpar formulário">
+                </div>
+                <div class="col-sm-2">
+                    <input type="button" class="btn btn-default" name="imprimir" value="Imprimir"
+                        onclick="window.print();">
+                </div>
             </div>
         </div>
     </form>
