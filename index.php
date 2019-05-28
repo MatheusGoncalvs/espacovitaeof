@@ -123,10 +123,6 @@
                 <div class="col-sm-2">
                     <input type="reset" class="btn" value="Limpar formulário">
                 </div>
-                <div class="col-sm-2">
-                    <input type="button" class="btn btn-default" name="imprimir" value="Imprimir"
-                        onclick="window.print();">
-                </div>
             </div>
         </div>
     </form>
