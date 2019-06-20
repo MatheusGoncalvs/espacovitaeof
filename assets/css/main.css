@@ -1,9 +1,108 @@
+h3, body {
+    font-family: 'Nunito', sans-serif !important;
+    font-size: 16px !important;
+}
+.font-verde {
+    color: #C4E538 !important;
+}
+.font-amarela {
+    color: #FFC312 !important;
+}
+label {
+    font-weight: 200 !important;
+}
+body .onBlue label, body .onBlue h2 {
+    color: white !important;
+}
+p {
+    color: #333 !important;
+}
 .borda {
     border: 1px solid red;
 }
-h3, body {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px !important;
+.container-dois {
+    max-width: 500px;
+    min-height: 400px;
+    margin-left: 5%;
+}
+.titulo-impressao {
+    padding-top: 50px !important;
+}
+.btn {
+    border-radius: 0px !important;
+}
+#imprimeConsulta {
+    padding-left: 80px;
+}
+@media print {
+    input {
+        display: none !important;
+    }
+}
+.container {
+    max-width: 1172px !important;
+    min-height: 400px;
+}
+td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+th {
+    background-color: #ddd;
+}
+#btnConfirmarConsulta {
+    float: right;
+}
+.confirma-consulta {
+    max-width: 650px;
+}
+#email, #senha {
+    width: 300px !important;
+}
+.input-nome {
+    width: 400px !important;
+}
+.input-rg {
+    width: 230px !important;
+}
+.input-cpf {
+    width: 230px !important;
+}
+.input-celular {
+    width: 230px !important;
+}
+.input-data-nascimento {
+    width: 200px !important;
+}
+.input-rua {
+    width: 400px !important;
+}
+.input-numero {
+    width: 120px !important;
+}
+.input-bairro {
+    width: 300px !important;
+}
+.input-cidade {
+    width: 280px !important;
+}
+select {
+    width: 210px !important;
+}
+.container {
+    max-width: 700px;
+    margin: 50px;
+}
+.section-login {
+    margin-top: 50px;
+    height: 100%;
+    min-height: 100%;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
 }
 
 h2 {
@@ -14,14 +113,26 @@ h2 {
     border-top: 2px solid #ccc;
 }
 .footer-vitae {
-    padding-left: 37%;
     padding-bottom: 8px;
+    text-align: center;
 }
-.titulos {
-    background-color: #ecf0f1;
+.titulos, .titulo-login {
+    background-color: #2980b9;
     margin: 0px !important;
-    border: 1px solid transparent;
-    padding-left: 12%; 
+    padding: 20px 0px 5px 5%;
+}
+.titulo-login {
+    padding-left: 0;
+    text-align: center;
+} 
+.titulos h2 {
+    color: white;
+}
+.container-fluid {
+    padding-left: 5% !important;
+}
+.navbar {
+    margin-bottom: 0px !important;
 }
 /*Tirei a margem da linha(row) porque estava desalinhando o layout*/
 .row {
@@ -71,4 +182,50 @@ h2 {
   .navbar-form {
       border: none !important;
   }
-  
+  .notFound #title-notFound {
+      font-weight: bold;
+      font-size: 22px !important;
+      
+  }
+  .notFound .content {
+      padding: 20px;
+      margin-left: 17%;
+      float: left;
+      border: 1px solid #ddd;
+  }
+  .notFound .img {
+      padding: 17px;
+      float: left;
+      border: 1px solid #ddd;
+  }
+  .notFound #brokenHeart {
+      font-size: 100px !important;
+      color: red;
+  }
+  .content-title {
+      padding-left: 10%;
+  }
+  .btn-consulta {
+      padding-top: 26px;
+      margin-left: 10px;
+  }
+  .block {
+      max-width: 400px;
+      height: 170px;
+      padding: 20px;
+      border: 1px solid #236FA0;
+  }
+  .content-painel {
+    margin-top: 50px;
+    height: 100%;
+    min-height: 100%;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+.carousel {
+    max-width: 400px;
+}

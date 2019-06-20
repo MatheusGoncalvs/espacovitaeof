@@ -1,7 +1,8 @@
 <?php 
-    include_once 'layout/header.php';
-    include_once 'DB/connection.php';
-    $n=$_GET['nomeMarcacao'];
+
+include_once 'layout/header.php';
+include_once 'DB/connection.php';
+$n=$_GET['nomeMarcacao'];
 ?>
 <div class="titulos">
     <h2>Marcação de consulta</h2>
@@ -23,7 +24,7 @@
         ?>
         
       <tr>
-        <td><a href="formMarcacao.php?nomeMarcacao=<?php echo $dado['nome'];?>&id_pessoa=<?php echo $dado['id_pessoa']; ?>"> <?php echo $dado['nome']; ?></a></td>
+        <td><a href="formMarcacao.php?nomeMarcacao=<?php echo $dado['nome']; ?>"> <?php echo $dado['nome']; ?></a></td>
         <td><?php echo $dado['cpf'];?></td>
       </tr>
       <?php }?>
